@@ -1,0 +1,22 @@
+{
+  "name": "smallsung/blockchainmanage",
+  "require": {
+    "ext-bcmath": "*",
+    "sc0vu/web3.php": "dev-master"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "SmallSung\\BlockChainManage\\": "src/",
+      "SmallSung\\BlockChainManage\\Test\\": "test/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0"
+  }
+}
